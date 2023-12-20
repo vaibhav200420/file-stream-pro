@@ -1,4 +1,3 @@
-{
     "name": "biisal",
     "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @biisal",
     "keywords": [
@@ -37,9 +36,6 @@
         "BIN_CHANNEL": {
             "description": "The BIN Channel ID. Read the readme for more info about this var"
         },
-        "NEW_USER_LOG": {
-            "description": "The NEW_USER_LOG Channel ID.Add this to get new users log"
-        },
         "DATABASE_URL": {
             "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
         },
@@ -47,11 +43,7 @@
             "description": "Your Telegram User ID  like 1234509"
         },
         "BANNED_CHANNELS": {
-            "description": "Put IDs of Banned Channels where bot will not work(bot will leave that channel). You can add multiple IDs & separate with Space.",
-            "required": false
-        },
-        "BAN_CHNL": {
-            "description": "almost same as BANNED_CHANNELS but if u add channel id here then the bot will stay that channel but it will not gen straming link for that channel.",
+            "description": "Put IDs of Banned Channels where bot will not work. You can add multiple IDs & separate with Space.",
             "required": false
         },
         "UPDATES_CHANNEL": {
@@ -107,7 +99,7 @@
     "formation": {
         "web": {
             "quantity": 1,
-            "size": "free"
+            "size": "basic"
         }
     }
 }
